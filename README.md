@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://avatars.githubusercontent.com/u/placeholder" alt="Evergreen IT" width="120" style="border-radius: 24px;" />
+<img src="https://avatars.githubusercontent.com/u/157107361?s=96&v=4" alt="Evergreen IT" width="120" style="border-radius: 24px;" />
 
 # 🌿 Evergreen IT
 
