@@ -1,8 +1,6 @@
 <div align="center">
 
-<img src="https://avatars.githubusercontent.com/u/157107361?s=96&v=4)" alt="Evergreen IT" width="120" style="border-radius: 24px;" />
-
-# 🌿 Evergreen IT
+<img src="https://github.com/Evergreen-IT/.github/blob/main/logo-verloop.png" alt="Evergreen IT" style="border-radius: 24px;" />
 
 ### Software that grows with you. AI that thinks along. Ideas that color outside the lines.
 
