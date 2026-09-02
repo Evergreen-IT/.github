@@ -1,0 +1,99 @@
+name: Product idea
+description: Capture a new product, internal tool, experiment, or research idea for evaluation.
+title: "[IDEA] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to capture an idea before it becomes delivery work. Keep it focused on the problem, opportunity, and unknowns. A repository or technical solution is not required yet.
+
+  - type: input
+    id: idea_name
+    attributes:
+      label: Idea name
+      description: Short working name for the idea.
+      placeholder: e.g. AI Contract Review Tool
+    validations:
+      required: true
+
+  - type: dropdown
+    id: idea_type
+    attributes:
+      label: Type
+      description: What kind of initiative is this?
+      options:
+        - Product
+        - Internal Tool
+        - Experiment
+        - Research
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What problem or opportunity are we addressing? Describe the current situation and why it matters.
+      placeholder: What is painful, slow, expensive, risky, or currently impossible?
+    validations:
+      required: true
+
+  - type: textarea
+    id: target_user
+    attributes:
+      label: Target user or customer
+      description: Who experiences this problem or benefits from solving it?
+      placeholder: User type, customer segment, internal team, or role.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed_solution
+    attributes:
+      label: Proposed solution
+      description: Describe the current idea for a solution. It can still be rough.
+      placeholder: What could we build or change?
+    validations:
+      required: true
+
+  - type: textarea
+    id: why_now
+    attributes:
+      label: Why now?
+      description: Why is this worth investigating now?
+      placeholder: Customer demand, market change, strategic fit, new technology, operational pain, etc.
+
+  - type: textarea
+    id: business_value
+    attributes:
+      label: Expected value
+      description: What value could this create?
+      placeholder: Revenue, customer value, efficiency, risk reduction, strategic advantage, learning, etc.
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence or signals
+      description: What makes us think this is a real problem or opportunity?
+      placeholder: Customer conversations, data, competitor examples, repeated internal pain, links, screenshots, etc.
+
+  - type: textarea
+    id: unknowns
+    attributes:
+      label: Key unknowns
+      description: What must we learn or validate before deciding to build?
+      placeholder: Market, user need, feasibility, data, security, pricing, integration, legal, etc.
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional context
+      description: Optional links, notes, sketches, references, or other context.
+
+  - type: checkboxes
+    id: readiness
+    attributes:
+      label: Submission check
+      options:
+        - label: This is an idea to evaluate, not yet an implementation task.
+          required: true
